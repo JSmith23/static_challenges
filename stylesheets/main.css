@@ -1,0 +1,98 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "title title"
+    "header header"
+    "content sidebar"
+    "footer footer";
+}
+
+.title {
+    background-color: rgb(160, 3, 3); 
+    grid-area: title;
+    height: 75px
+}
+
+.header {
+    grid-area: header;
+    background-color: grey;
+    height: 50px;
+}
+
+.content {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: gray;
+    height: 100px;
+    
+}
+
+.links {
+    float: right;
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+
+.museo {
+    height: 700px;
+    width: 1000px;
+    padding: 20px 30px 20px 20px;
+}
+
+.landmark {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.art {
+    padding: 20px 30px 20px 20px;
+}
+
+.image1 {
+    width: 300px;
+    height 300px;
+    margin-bottom: 40px;
+}
+
+.image2 {
+    width: 300px;
+    height 300px;
+    margin-bottom: 40px;
+}
+
+.image3 {
+    width: 300px;
+    height 300px;
+    margin-bottom: 40px;
+}
+
+#login {
+    float: right;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    padding: 20px 30px 20px 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#titular {
+    font-size: 45px;
+    font-weight: bold;
+}
